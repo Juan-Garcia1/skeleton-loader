@@ -20,6 +20,11 @@ const Card2 = () => {
         <div className="card2__content-wrapper">
           <SkeletonLine width={50} />
           <SkeletonLine width={80} />
+          <div className="card2__comments">
+            <SkeletonCircle size={40} />
+            <SkeletonCircle size={40} />
+            <SkeletonCircle size={40} />
+          </div>
         </div>
       </div>
     );
@@ -41,6 +46,26 @@ const Card2 = () => {
               John Doe
             </a>
           </p>
+          <div className="card2__comments">
+            <div className="card2__profile">
+              <img
+                className="card2__profile-img"
+                src="https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_1280.jpg"
+              />
+            </div>
+            <div className="card2__profile">
+              <img
+                className="card2__profile-img"
+                src="https://cdn.pixabay.com/photo/2017/06/28/04/29/adult-2449725_1280.jpg"
+              />
+            </div>
+            <div className="card2__profile">
+              <img
+                className="card2__profile-img"
+                src="https://cdn.pixabay.com/photo/2015/01/12/10/44/portrait-597173_1280.jpg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     );

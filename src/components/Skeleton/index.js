@@ -23,7 +23,7 @@ const SSkeletonPulse = styled.div`
 const SSkeletonLine = styled(SSkeletonPulse)`
   width: ${props => (props.width ? props.width + "%" : "100%")};
   height: ${props => (props.height ? props.height + "px" : "14px")};
-  border-radius: 2px;
+  border-radius: 3px;
   float: ${props => props.float && props.float};
 
   &::before {
